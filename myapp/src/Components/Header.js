@@ -60,6 +60,12 @@ const Header = () => {
                                         Products
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to="/mycart" className="nav-link text-white">
+
+                                        My Cart
+                                    </Link>
+                                </li>
 
                             </ul>
                         </div>

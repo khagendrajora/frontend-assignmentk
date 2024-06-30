@@ -6,6 +6,7 @@ import Login from './Pages/Login'
 import ProductDetails from './Pages/ProductDetails'
 import Products from './Pages/Products'
 import Registerr from './Pages/Register'
+import { MyCart } from './Pages/MyCart'
 
 const MyRoute = () => {
     return (
@@ -18,6 +19,7 @@ const MyRoute = () => {
                         <Route path='signup' element={<Registerr />} />
                         <Route path='productDetail/:product_id' element={<ProductDetails />} />
                         <Route path='products' element={<Products />} />
+                        <Route path='mycart' element={<MyCart />} />
                     </Route>
                 </Routes>
             </Router>

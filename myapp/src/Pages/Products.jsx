@@ -12,7 +12,7 @@ const Products = () => {
             try {
                 const response = await axios.get('https://fakestoreapi.com/products')
                 setProduct(response.data)
-                
+
             }
             catch (err) {
                 console.log(err)
@@ -23,11 +23,11 @@ const Products = () => {
 
         })
     })
-    
+
     return (
         <>
             <div classNameName="container-fluid">
-                <div className="row row-cols-1 row-cols-md-4 g-4">
+                <div className="row row-cols-1 mx-5 row-cols-md-4 g-4">
                     {
                         product.slice(0, limit).map((product, i) => (
                             <Cart key={i} item={product} />

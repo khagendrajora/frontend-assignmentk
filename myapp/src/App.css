@@ -1,6 +1,14 @@
-.card img{
+.card .card-img {
+  height: 500px;
 
-  height: 180px;
-  object-fit: cover;
+}
 
+.card .card-img img {
+  height: 400px;
+  object-fit: contain;
+
+}
+
+.card {
+  height: 600px;
 }
